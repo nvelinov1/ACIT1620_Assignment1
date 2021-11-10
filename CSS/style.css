@@ -10,9 +10,33 @@ nav {
 }
 
 .flex-container {
-
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: start;
+  justify-content: start;
+  width: 1200px;
 }
 
 .flex-item {
+  position: relative;
+  width: 150px;
+  height: 100px;
+  left: 475px;
+  top: 100px;
+  margin: 30px;
+  background-color: #6e6a86;
+}
 
+.text {
+  color: #eb6f92;
+  font-family: 'Poppins', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.text-title {
+  font-size:50px; 
 }

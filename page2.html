@@ -4,24 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="CSS/style.css" rel="stylesheet">
-    <title>pop shove-it</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <title>Web Development Assignment 1</title>
   </head>
-    
-    <body>
-    <header>
-    </header>
+  <body>
     <nav>
-      <a href="index.html">Pop Shop-It Skates</a>
-      <a href="about.html">About</a>
-      <a href="contact.html">Contact us</a>
+      <h1><a href="index.html" class="text text-title">Contacts</a> </h1> 
+        <h3>
+          <div id="text-moved">
+          <a href="page2.html" class="text">Create New Contact + </a> 
+          </div>
+          <div id="text-moved">
+          <a href="page3.html" class="text">Show Favorites</a>
+          </div>
+      </h3>
     </nav>
-    
-    <main>
-      <h2>Have questions get in touch</h2>
-      <img src="images/hans-isaacson-7mXlg2FtpZ0-unsplash.jpg" alt="young woman holding a skateboard on a road"/>
-      <div id="contact-card">
+    <div class="flex-container">
+      <button type="submit" class="flex-item button save-contact"> Save Contact</button>
+      <button type="submit" class="flex-item button cancel"> Cancel </button>
+    </div>
 
-      </div>
-    </main>
+    <div class="flex-container form-container">
+      <input type="text" placeholder="Contact Name" class="flex-item form text">
+      <input type="text" placeholder="Contact Phone" class="flex-item form text">
+      <input type="text" placeholder="Contact Address" class="flex-item form text">
+      <input type="text" placeholder="Contact Email" class="flex-item form text">
+    </div>
+    <img src="Images/icon.png" class="image">
   </body>
 </html>

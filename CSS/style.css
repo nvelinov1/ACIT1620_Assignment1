@@ -20,7 +20,7 @@ nav {
 
 .flex-item {
   position: relative;
-  width: 150px;
+  width: 170px;
   height: 100px;
   left: 475px;
   top: 100px;
@@ -91,3 +91,61 @@ a:link {
   right: 323.5px;
   top: 65px;
 }
+
+.plus {
+  position: relative;
+  left: 620px;
+  bottom: 33px;
+  margin: inherit;
+  user-select: none;
+}
+
+.additional-flex-box {
+  flex-direction: column;
+  position: flex;
+  align-items: flex-start;
+  align-content: flex-start;
+  border: 2px solid black;
+}
+
+.picture {
+  position: absolute;
+  left: 500px;
+}
+
+.text-heading {
+  position: absolute;
+  left: 490px;
+  top: 120px;
+}
+
+.body-text {
+  position: relative;
+  left: 482px;
+  top: 175px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container-buttons {
+  position: relative;
+  right: 20px;
+}
+
+.edit-button {
+  position: absolute;
+  left: 500px;
+  top: 170px;
+  width: 50px;
+}
+
+.close-button {
+  position: absolute;
+  left: 550px;
+  top: 170px;
+  width: 50px;
+}
+
+
+
+
+
